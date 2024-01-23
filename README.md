@@ -1,5 +1,5 @@
 # backup-trello
-Utility to devendor-lock onself from Atlasian
+Utility to devendor-lock oneself from Atlasian
 
 At the time of creation I have a Trello board with 1k+ cards. I'm gradually reducing my dependency on Trello, however frequent backups are the sweet spot for ensuring that my data won't be held hostage or disappear all of a sudden.
 
