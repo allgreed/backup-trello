@@ -6,7 +6,7 @@ import pathlib
 
 def main():
     cookiejar = browser_cookie3.chrome(domain_name="trello.com")
-    fname = f"trello-{datetime.datetime.strftime(datetime.datetime.now(), '%d-%m-%Y')}.json"
+    fname = f"trello-{datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d')}.json"
     with open(pathlib.Path.home() / "Keys" / "main-board-id") as f:
         board_id = f.read().rstrip()
 
